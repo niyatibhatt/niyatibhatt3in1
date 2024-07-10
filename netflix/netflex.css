@@ -1,0 +1,130 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('netimage.jpg');
+    background-size: cover;
+    padding: 0;
+    margin:0;
+
+    backdrop-filter: brightness(0.3);
+}
+
+.wrapper {
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.from {
+    width: 400px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.732);
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    margin-right: 90px;
+
+}
+
+.box {
+    width: 305px;
+    height: 510px;
+
+    margin-top: 15px;
+
+}
+
+.headding {
+    font-family: system-ui;
+    margin-top: 0;
+    color: white;
+  
+}
+
+.input {
+   
+    width: 89%;
+    height: 32px;           
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid #7a7878;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    padding-left: 15px;
+}
+
+.button {
+    width: 99%;
+    height: 40px;
+    font-weight: 700;
+    background-color: rgb(173, 0, 0);
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.or {
+    font-family: sans-serif;
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.button2 {
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    background-color: rgb(128, 128, 128, 0.596);
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.forgot {
+    font-family: system-ui;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.label {
+    color: #e5e5e5;
+    font-family: monospace;
+    font-size: 16px;
+}
+.sing{
+    font-family: system-ui;
+    color: gray;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-bottom: 21px;
+}
+.bold{
+    color: aliceblue;
+    font-size: 16px;
+}
+.more{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: gray;
+}
+.logo{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 94, 255);
+}
+
+
